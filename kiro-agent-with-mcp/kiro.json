@@ -1,0 +1,70 @@
+{
+
+  "mcpServers": {
+
+    "mongo": {
+
+      "command": "E:/kiro-agent/myenv/Scripts/python.exe",
+
+      "args": [
+
+        "server.py"
+
+      ],
+
+      "cwd": "E:/kiro-agent",
+
+      "disabled": false,
+
+      "autoApprove": [
+
+        "*",
+
+        "add_user",
+
+        "delete_user",
+
+        "add_user",
+
+        "add_user",
+
+        "get_user"
+
+      ]
+
+    }
+
+  }
+
+}
+
+// /*
+
+//   Kiro User Configuration
+
+// */
+
+
+{
+
+  "name": "kiro-user",
+
+  "powers": {
+
+    "mcpServers": {
+
+      "mongo": {
+
+        "command": "E:/kiro-agent/myenv/Scripts/python.exe",
+
+        "args": ["server.py"],
+
+        "cwd": "E:/kiro-agent"
+
+      }
+
+    }
+
+  }
+
+}
